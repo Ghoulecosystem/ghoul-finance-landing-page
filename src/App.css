@@ -30,6 +30,19 @@ body {
   width: 146px;
   height: 48px;
 
+  background: #74ec65;
+  border-radius: 8px;
+  font-weight: 800;
+  color: #040506;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#buy-ghoul-div {
+  width: 146px;
+  height: 48px;
+
   background: #253e2a;
   border-radius: 8px;
   color: #74ec65;
@@ -70,10 +83,35 @@ body {
 
   flex-grow: 0;
   gap: 1rem;
+  cursor: pointer;
+}
+
+#buy-ghoul > a {
+  color: #74ec65;
+}
+
+#buy-ghoul > a:hover {
+  transform: scale(1.1);
+}
+
+#launch-app:hover {
+  background: #106c03;
 }
 
 .horiz-line-mobile {
   display: none;
+}
+
+#learn-more:hover {
+  background: #106c03;
+}
+
+#launch-app-2:hover {
+  background: #106c03;
+}
+
+.launch-app:hover {
+  background: #106c03;
 }
 
 .title-1 {
