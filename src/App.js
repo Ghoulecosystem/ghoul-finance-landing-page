@@ -1,6 +1,6 @@
 import { Route, Switch, Redirect } from "react-router-dom";
 import Layout from "./components/layout/Layout";
-import ghoulXLogo from "./assets/ghoulX_logo.svg";
+import ghoulXLogo from "./assets/GhoulX logo.png";
 import ghoulLogo from "./assets/ghoul_logo.svg";
 import borrowLogo from "./assets/borrow.svg";
 import hodlLogo from "./assets/hodl.svg";

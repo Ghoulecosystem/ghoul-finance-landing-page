@@ -95,7 +95,7 @@ body {
 }
 
 #launch-app:hover {
-  background: #106c03;
+  transform: scale(1.1);
 }
 
 .horiz-line-mobile {
@@ -103,15 +103,15 @@ body {
 }
 
 #learn-more:hover {
-  background: #106c03;
+  transform: scale(1.1);
 }
 
 #launch-app-2:hover {
-  background: #106c03;
+  transform: scale(1.1);
 }
 
 .launch-app:hover {
-  background: #106c03;
+  transform: scale(1.1);
 }
 
 .title-1 {
