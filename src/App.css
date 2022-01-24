@@ -40,14 +40,14 @@ body {
 }
 
 #buy-ghoul-div {
-  width: 146px;
+  width: 200px;
   height: 48px;
 
   background: #253e2a;
   border-radius: 8px;
   color: #74ec65;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -76,13 +76,14 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  flex-direction: row;
 
   color: #74ec65;
 
   /* Inside auto layout */
 
   flex-grow: 0;
-  gap: 1rem;
+  gap: 0rem;
   cursor: pointer;
 }
 
@@ -174,6 +175,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
 }
 
 .volume-cards {

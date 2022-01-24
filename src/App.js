@@ -25,10 +25,16 @@ function App() {
                   target="_blank"
                 >
                   {" "}
-                  <div id="buy-ghoul-div"> Buy $GHOULX</div>
+                  <div id="buy-ghoul-div">
+                    {" "}
+                    Buy $GHOULX
+                    <img
+                      src={ghoulXLogo}
+                      alt="ghoulXLogo"
+                      id="buy-ghoul-logo"
+                    />
+                  </div>
                 </a>
-
-                <img src={ghoulXLogo} alt="ghoulXLogo" id="buy-ghoul-logo" />
               </div>
               <a href="https://app.ghoul.finance/" target="_blank">
                 <div id="launch-app">Launch App</div>
