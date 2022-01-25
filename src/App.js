@@ -60,7 +60,7 @@ function App() {
                   <div id="launch-app-2">Learn More</div>
                 </a>
               </div>
-              <div className="volume-cards">
+              {/* <div className="volume-cards">
                 <div className="volume-card-elem">
                   <div className="trading-volume">TOTAL TRADING VOLUME</div>
                   <div className="dollar-value">$1,000,000</div>
@@ -69,7 +69,7 @@ function App() {
                   <div className="trading-volume">24HR TRADING VOLUME</div>
                   <div className="dollar-value">$1,000,000</div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="hero-two-container">
