@@ -446,12 +446,47 @@ a {
 }
 
 @media screen and (max-width: 688px) {
+  .header-container {
+    flex-direction: column;
+  }
+
+  .header-elem {
+    padding-right: 0;
+    margin-top: 0;
+  }
+
+  #launch-app {
+    width: 146px;
+    height: 48px;
+
+    background: #74ec65;
+    border-radius: 8px;
+    font-weight: 800;
+    color: #040506;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #buy-ghoul-div {
+    width: 146px;
+    height: 48px;
+
+    background: #253e2a;
+    border-radius: 8px;
+    color: #74ec65;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
   #header-logo {
-    padding-left: 10.625rem;
+    padding-left: 0;
+    margin-bottom: 1rem;
   }
   .horiz-line-mobile {
     position: absolute;
-    top: 4%;
+    top: 4.5%;
     display: inline;
     width: 100%;
     height: 0px;
