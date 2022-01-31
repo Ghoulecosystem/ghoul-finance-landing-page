@@ -111,7 +111,7 @@ body {
   transform: scale(1.1);
 }
 
-.launch-app:hover {
+.launch-app:hover,.launch-app-2:hover {
   transform: scale(1.1);
 }
 
@@ -355,9 +355,28 @@ body {
   justify-content: center;
   align-items: center;
 
-  /* Inside auto layout */
-  margin-bottom: 9.375rem;
+
 }
+
+
+.launch-app-2 {
+  width: 262px;
+  height: 48px;
+
+  background: #253e2a;
+  border-radius: 8px;
+  color: #74ec65;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 137% */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 #launch-app-arrow {
   position: absolute;
@@ -368,6 +387,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 9.375rem;
 }
 
 .footer-col-1 {
@@ -383,10 +403,7 @@ body {
 }
 
 .row-one-c-1 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 0.9rem;
+  text-align: center;
 }
 
 .row-two-c-1 {
@@ -404,12 +421,10 @@ body {
 }
 
 .row-two-c-1 {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  gap: 3.125rem;
-  padding-bottom: 3.5rem;
+text-align: center;
 }
+
+.row-two-c-1 a{padding: 30px;}
 
 .row-one-c-2 {
   display: flex;
@@ -469,7 +484,7 @@ a {
   }
 
   #buy-ghoul-div {
-    width: 146px;
+    width: 170px;
     height: 48px;
 
     background: #253e2a;
@@ -522,7 +537,7 @@ a {
   }
 
   .footer-container {
-    margin-top: -5rem;
+    margin-top: 5rem;
     flex-direction: column;
   }
 
