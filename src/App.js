@@ -114,7 +114,7 @@ function App() {
                 <img src={spendGdaiLogo} alt="" />
                 <div className="ht-card-title">Participate</div>
                 <div className="ht-card-sub-title">
-                  Be part of a GhoulDAO community that helps improve and govern the future of the protocol.
+                  Be part of the GhoulDAO community that helps improve and govern the future of the protocol.
                 </div>
                 <a href="https://snapshot.org/#/ghouldao.eth" target="_blank" rel="noreferrer"><div className="ht-card-button">Govern gDAI</div></a>
               </div>
