@@ -98,7 +98,7 @@ function App() {
                 <img src={tradeLogo} alt="" />
                 <div className="ht-card-title">Trade</div>
                 <div className="ht-card-sub-title">
-                  Spend your gDAI, swap them for other stablecoins or trade them for other tokens.
+                  Spend your gDAI, swap them ~1:1 for other stablecoins or trade them for other tokens.
                 </div>
                 <a href="https://app.ghoul.finance/#/swap" target="_blank" rel="noreferrer"><div className="ht-card-button">Swap Tokens</div></a>
               </div>
