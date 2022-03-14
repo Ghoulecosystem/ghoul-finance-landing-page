@@ -60,6 +60,9 @@ function App() {
                 <a href="https://docs.ghoul.finance/" target="_blank" rel="noreferrer">
                   <div id="launch-app-2">Learn More</div>
                 </a>
+                <a href="https://www.youtube.com/watch?v=DU4RBZj3Kh4&list=PL7LWKvXpzC77ICtPSwtIPfmiLpfrju1l1" target="_blank" rel="noreferrer">
+                  <div id="launch-app-2">How to Videos</div>
+                </a>
               </div>
               {/* <div className="volume-cards">
                 <div className="volume-card-elem">
@@ -132,6 +135,12 @@ function App() {
             <a href="https://docs.ghoul.finance/" target="_blank" rel="noreferrer">
             <div className="launch-app-2">
               View Documentation
+            </div>
+            </a>
+            <br/><br/>
+            <a href="https://www.youtube.com/watch?v=DU4RBZj3Kh4&list=PL7LWKvXpzC77ICtPSwtIPfmiLpfrju1l1" target="_blank" rel="noreferrer">
+            <div className="launch-app-2">
+              How to Videos
             </div>
             </a>
 
